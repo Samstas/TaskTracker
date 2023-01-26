@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700;800&display=swap');
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+    margin: 0;
+}
+
+img {
+    display: block;
+}
+
+.main-paige {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* navigation bar */
+.header {
+    display: flex;
+    align-items: center;
+    height: 73px;
+    border-bottom: 1px solid #E5E9F2;
+
+}
+
+.header-container {
+    width: 1110px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 40px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    margin-top: -2px;
+}
+
+.nav a  {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px; 
+    text-decoration: none;
+    /* text-transform: uppercase; */
+    color: #18191F;
+    margin-right: 32px;
+    letter-spacing: 1px;
+}
+
+.nav a:last-child {
+    margin-right: 0;
+}
+
+.nav a:hover {
+    color: #8C30F5;
+}
+
+.apps {
+margin-left: auto;
+display: flex;
+}
+.apps-link {
+    margin-right: 12px;
+}
+.apps-link:last-child {
+    margin-right: 0;
+}
+
+/* main content information */
+
+.main-container {
+    width: 1110px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-top: 197px;
+    padding-bottom: 197px;
+}
+
+.main-block {
+    width: 540px;
+}
+
+.main-block h1 {
+    margin: 0;
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 98px;
+    color: #18191F;
+    margin-bottom: 16px;
+}
+
+.main-block p {
+    margin: 0;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #18191F;
+    margin-bottom: 32px;
+}
+
+.button {
+    display: inline-block;
+    background: #8C30F5;
+    border-radius: 8px;
+    padding: 16px 35px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.button:hover {
+    opacity: 0.8;
+}
+
+
+/* footer bar */
+
+.footer {
+    display: flex;
+    align-items: center;
+    background: #0B0D17;
+    height: 72px;
+}
+
+.footer-container {
+    width: 1110px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copyright-footer p {
+    color: #D9DBE1;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.socials {
+    display: flex;
+}
+
+.socials a {
+    margin-right: 16px;
+}
+
+.socials a:last-child {
+    margin-right: 0;
+}
